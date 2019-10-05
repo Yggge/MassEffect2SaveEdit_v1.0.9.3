@@ -1,216 +1,398 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <categories>
-	<category name="ME2 Plot table">
+	<category name="ME2: Missions">
 		<notes>
-Don't change the [End] values until after the Suicide mission
+MASS EFFECT 3 IMPACT:
+Miranda - Loyalty matters...she will die without it.
+Thane - Does not matter
+Jack - Does not matter
+Jacob - Does not matter
+Grunt - Loyalty matters...he will die without it (if the Rachni Queen is saved)
+Garrus - Does not matter
+Zaeed - Loyalty Matters...he will die without it
+Kasumi - Loyalty Matters...she will die without it
+Mordin - His loyalty does not specifically matter, however what you do with Maelon's cure does. The best choice in terms of war assets is to save Maelon's data.
+Samara/Morinth - Loyalty does not matter...however, Samara can still die...you need a paragon interrupt to save her
+Legion - Does not matter, though his and Tali's loyalty missions have big impacts on your resolution to the Geth/Quarian conflict. Here's how to save both species:
+
+You MUST have both Tali and Legion alive in ME3 and present on Rannoch
+You MUST have at least 4 bars of reputation (Paragon/Renegade mix...does not matter how much of each)
+You MUST have saved Admiral Koris (it's not enough to have done the mission...Koris needs to have survived)
+
+Now, with all of that, you need to have at least 5 points from the following situations:
+
+ME2:
+In Tali's loyalty mission, she resolved the situation without being exiled (+2 points) - if she was exiled, you get no points.
+In Legion's loyalty mission, destroy the Heretics (+2 points) - if you rewrote, you get no points.
+When Tali and Legion have their disagreement on the Normandy, you brokered a peace (using a paragon/renegade dialogue option) (+1 point) - If you chose one over the other, no points
+Therefore, it's possible to get all the points you need in ME2.
+
+ME3:
+Complete mission: Destroy Geth Fighter Squadron (+1 point) - If mission is not completed, no points...I'm not sure, but you may not be able to broker peace if this isn't completed
+You get a point for saving Admiral Koris (cannot broker a peace without doing that)
+
+So you need 5 out of those 7 points, plus the required conditions. If you don't meet that, you can't broker peace.
+
+SPOILERS - If you can't broker peace, it's probably best to save the Quarians. Legion dies no matter what, whereas Tali will die only if you chose the Geth (leaving the Quarians to die).
+		</notes>
+		<bools multicolumn="false">
+			<plot id="360">Jacob: The Gift of Greatness: Dad marooned</plot>
+			<plot id="361">Jacob: The Gift of Greatness: Dad arrested</plot>
+			<plot id="362">Jacob: The Gift of Greatness: Dad suicide</plot>
+			<plot id="668">Tali: Treason, Legion was part of Tali's loyalty mission</plot>
+			<plot id="757">Legion Loyalty: Destroyed Heretics</plot>
+			<plot id="759">Legion Loyalty: Rewrote Heretics</plot>
+			<plot id="1256">Collector Ship: IFF acquired</plot>
+			<plot id="1288">Miranda: The Prodigal, Saved Oriana</plot>
+			<plot id="1497">Jacob: The Gift of Greatness, Completed mission</plot>
+			<plot id="1498">Something to do with Jack loyalty mission (biotic potential)</plot>
+			<plot id="1499">Probably Tali/Legion conflict</plot>
+			<plot id="1500">Legion: A House Divided, Completed Mission</plot>
+			<plot id="1503">Tali: Treason, Completed mission</plot>
+			<plot id="1504">Mordin: Old Blood, Shepard knows about Maelon's experiments</plot>
+			<plot id="1506">Samara: The Ardat-Yakshi, Knows about the Ardat-Yakshi</plot>
+			<plot id="1585">Normandy: Amicably settled the Tali-Legion conflict</plot>
+			<plot id="1664">Samara: The Ardat-Yakshi, Killed Samara to recruit Morinth</plot>
+			<plot id="1831">Collector base destroyed</plot>
+			<plot id="1832">Collector base saved</plot>
+			<plot id="2050">Mordin Loyalty: Maelon killed</plot>
+			<plot id="2168">Citadel: Declined reinstatement as Spectre</plot>
+			<plot id="2169">Citadel: Accepted reinstatement as Spectre</plot>
+			<plot id="2375">Freedom's Progress: Sent Veetor'Nara to Cerberus</plot>
+			<plot id="2676">Mordin Loyalty: Kept Maelon's data</plot>
+			<plot id="2677">Mordin Loyalty: Destroyed Maelon's data</plot>
+			<plot id="2678">Mordin Loyalty: Maelon saved</plot>
+			<plot id="2851">Collector Base: The Long Walk, Jack performed biotic bubble during Suicide Mission</plot>
+			<plot id="2884">Collector Base: Infiltration, Tali hacked the vents during suicide mission</plot>
+			<plot id="2933">Tali: Treason, Father posthumously exiled</plot>
+			<plot id="2934">Tali: Treason, Tali exiled</plot>
+			<plot id="2935">Tali: Treason, Tali found not guilty</plot>
+			<plot id="2936">Tali: Treason, Tali exonerated</plot>
+			<plot id="3117">Illium: Blue Rose, Encouraged relationship</plot>
+			<plot id="3132">Illium: Conrad Verner, Shot him in the foot</plot>
+			<plot id="3139">Illium: Conrad Verner, Completed quest</plot>
+			<plot id="3213">Illium: Met Matriarch Aethyta</plot>
+			<plot id="3426">Thane: Sins of the Father] Thane reunited with Kolyat</plot>
+			<plot id="3743">Probably punching Khalisah Bint Sinan al-Jilani in ME2/3</plot>
+			<plot id="3872">Normandy: Listened to Mordin singing</plot>
+			<plot id="3914">Bought FBA couplings (?)</plot>
+			<plot id="4388">Collector Base: The Long Walk, Shepard called the Collector base an abomination</plot>
+			<plot id="4390">Collector Base: The Long Walk, Used the Collector base to study Reapers</plot>
+			<plot id="4424">Citadel: Punched Khalisa Bint Sinan al-Jilani</plot>
+			<plot id="5224">Samara: The Ardat-Yakshi, Danced with Waera to attract Morinth (changes Shepard's dance style)</plot>
+			<plot id="6423">Zaeed: The Price of Revenge, Saved the trapped workers and Vido got away</plot>
+			<plot id="6512">Project Overlord: Completed mission</plot>
+			<plot id="6561">Project Overlord: David saved</plot>
+			<plot id="6562">Project Overlord: David handed over</plot>
+			<plot id="6637">Stealing Memory: Destroyed graybox</plot>
+			<plot id="6638">Stealing Memory: Kept graybox</plot>
+			<plot id="6815">Lair of the Shadow Broker: Completed mission</plot>
+			<plot id="6941">Lair of the Shadow Broker: Liara toured the Normandy</plot>
+			<plot id="7051">Lair of the Shadow Broker: Shepard killed Shadow Broker</plot>
+			<plot id="7151">Lair of the Shadow Broker: Watched videos on Hagalaz</plot>
+			<plot id="7451">Arrival: Completed assignment</plot>
+			<plot id="7500">Arrival: Tried to warn batarian colony (not sure - from ME2 state transitions)</plot>
+			<plot id="1496">unknown loyality, ME2Success plot</plot>
+			<plot id="1501">unknown loyality, ME2Success plot</plot>
+			<plot id="1502">unknown loyality, ME2Success plot</plot>
+			<plot id="1505">unknown loyality, ME2Success plot</plot>
+			<plot id="1507">unknown loyality, ME2Success plot</plot>
+			<plot id="3881">unknown mission, ME2Success plot</plot>
+			<plot id="6157">unknown mission, ME2Success plot</plot>
+		</bools>
+	</category>
+	<category name="ME2: Mission Rewards">
+		<bools>
+			<plot id="5794">Prologue: Awakening</plot>
+			<plot id="5795">Freedom's Progress</plot>
+			<plot id="5796">Priority: Horizon</plot>
+			<plot id="5797">Disabled Collector Vessel</plot>
+			<plot id="5798">Stop the Collectors: Omega 4 Relay</plot>
+			<plot id="5799">Collector Base: Tartarus Debris Field</plot>
+			<plot id="5800">Collector Base: Infiltration</plot>
+			<plot id="5801">Collector Base: The Long Walk</plot>
+			<plot id="5802">Jacob: The Gift of Greatness</plot>
+			<plot id="5803">Legion: A House Divided</plot>
+			<plot id="5804">Thane: Sins of the Father</plot>
+			<plot id="5805">Jack: Subject Zero</plot>
+			<plot id="5806">Grunt: Rite of Passage</plot>
+			<plot id="5807">Mordin: Old Blood</plot>
+			<plot id="5808">Samara: The Ardat-Yakshi</plot>
+			<plot id="5809">Tali: Treason</plot>
+			<plot id="5810">Miranda: The Prodigal</plot>
+			<plot id="5811">Garrus: Eye for an Eye</plot>
+			<plot id="5812">Dossier: The Warlord</plot>
+			<plot id="5813">Dossier: Archangel</plot>
+			<plot id="5814">Dossier: The Professor</plot>
+			<plot id="5815">Dossier: The Convict</plot>
+			<plot id="5816">Reaper IFF</plot>
+			<plot id="5817">Dossier: Tali</plot>
+			<plot id="5818">Dossier: The Assassin</plot>
+			<plot id="5819">Dossier: The Justicar</plot>
+			<plot id="5820">Project Firewalker: Volcano Station</plot>
+			<plot id="5821">Project Firewalker: Prothean Site</plot>
+			<plot id="5822">Project Firewalker: Survey Sites Located</plot>
+			<plot id="5823">N7 Archeological Dig Site</plot>
+			<plot id="5824">N7 MSV Strontium Mule</plot>
+			<plot id="5825">N7 Blue Suns Base</plot>
+			<plot id="5826">N7 Anomalous Weather Detected</plot>
+			<plot id="5827">N7 Blood Pack Comm Relay</plot>
+			<plot id="5828">N7 Wrecked Merchant Freighter</plot>
+			<plot id="5829">N7 Blood Pack Base</plot>
+			<plot id="5830">N7 Hahne-Kedar Facility</plot>
+			<plot id="5831">Project Firewalker: Geth Incursions</plot>
+			<plot id="5832">N7 Abandoned Research Station</plot>
+			<plot id="5833">N7 MSV Estevanico</plot>
+			<plot id="5834">N7 Captured Mining Facility</plot>
+			<plot id="5835">N7 Eclipse Smuggling Depot</plot>
+			<plot id="5836">N7 Quarian Crash Site</plot>
+			<plot id="5837">N7 Mining the Canyon</plot>
+			<plot id="5838">N7 Imminent Ship Crash</plot>
+			<plot id="5839">N7 Lost Operative</plot>
+			<plot id="5840">N7 Endangered Research Station</plot>
+			<plot id="5841">N7 Javelin Missles Launched</plot>
+			<plot id="5842">Project Firewalker: Rosalie Lost</plot>
+			<plot id="5843">N7 Abandoned Mine</plot>
+			<plot id="5845">Normandy: Special Ingredients</plot>
+			<plot id="5846">Normandy: Serrice Ice Brandy</plot>
+			<plot id="5847">Normandy: FBA Couplings</plot>
+			<plot id="5848">Liara: Systems Hacking</plot>
+			<plot id="5849">Liara: The Observer</plot>
+			<plot id="5850">Blue Rose of Illium</plot>
+			<plot id="5851">Conrad Verner</plot>
+			<plot id="5852">Medical Scans</plot>
+			<plot id="5853">Gianna Parasini</plot>
+			<plot id="5854">Indentured Service</plot>
+			<plot id="5855">Lost Locket Found</plot>
+			<plot id="5856">Salarian Family Data</plot>
+			<plot id="5857">Stolen Goods Found</plot>
+			<plot id="5858">Packages for Ish</plot>
+			<plot id="5859">Omega: Oracle</plot>
+			<plot id="5860">Omega: Blue Suns</plot>
+			<plot id="5861">Batarian Bartender</plot>
+			<plot id="5862">Datapad Recovered</plot>
+			<plot id="5863">Helped Nassasna's workers</plot>
+			<plot id="5864">Killing Pyjacks</plot>
+			<plot id="5865">Combustion Manifold</plot>
+			<plot id="5866">Krogan Sushi</plot>
+			<plot id="5867">Crime in Progress</plot>
+			<plot id="5868">Spoke to Khalisah</plot>
+			<plot id="5869">False Positives/Found Forged ID</plot>
+			<plot id="5870">Reported Elnora to Detective Anaya</plot>
+			<plot id="5871">Smuggling Evidence</plot>
+			<plot id="5873">Helped injured Batarian when recruiting Mordin</plot>
+			<plot id="5875">Missing Scout</plot>
+		</bools>
+	</category>
+	<category name="ME2: Crew">
+		<notes>
+Don't put extra people in your squad until after you meet The Illusive Man. There is a part of the introduction that will break (when Wilson joins your squad) if your party has Jacob and someone else in it already.
 
 Possible Cerberus crew scenarios:
 All crew alive:
-- Check "[End] Cerberus crew alive"
+- Check "End: Cerberus crew alive"
 - Set "[End] No. of assignments after IFF activation" value to 0
 - Uncheck Gardner, Kelly and Chakwas
 Half of the crew alive:
-- Check "[End] Cerberus crew alive"
+- Check "End: Cerberus crew alive"
 - Set "[End] No. of assignments after IFF activation" value between 1 and 3
 - Check Gardner and Kelly and uncheck Chakwas
 Only Dr. Chakwas alive:
-- Uncheck "[End] Cerberus crew alive"
+- Uncheck "End: Cerberus crew alive"
 - Set "[End] No. of assignments after IFF activation" value greater than 3
 - Check Gardner and Kelly and uncheck Chakwas
 All crew dead:
-- Uncheck "[End] Cerberus crew alive"
+- Uncheck "End: Cerberus crew alive"
+- Check "Crew had no survivors"
 - Check Gardner, Kelly and Chakwas
     </notes>
 		<ints>
-			<plot id="166">[End] No. of assignments after IFF activation</plot>
-			<plot id="485">[Captain's Cabin] Illium Skald Fish state (0 alive, 3 dead)</plot>
-			<plot id="487">[Captain's Cabin] Prejek Paddle Fish state (0 alive, 3 dead)</plot>
-			<plot id="486">[Captain's Cabin] Thessian Sunfish state (0 alive, 3 dead)</plot>
+			<plot id="166">Cerberus Crew status (0=Alive, 1-3=Half Dead, 4=All Dead)</plot>
 		</ints>
-		<bools multicolumn="false">
-			<plot id="2375">[Freedom's Progress] Sent Veetor'Nara to Cerberus</plot>
-			<plot id="2168">[Citadel] Declined reinstatement as Spectre</plot>
-			<plot id="2169">[Citadel] Accepted reinstatement as Spectre</plot>
-			<plot id="1256">[Reaper IFF] IFF acquired</plot>
-			<plot id="5978">[Player] Cosmetic surgery applied</plot>
-			<plot id="5979">[Player] Cosmetic surgery unlocked</plot>
-			<plot id="2279">[Other] Played Mass Effect 1</plot>
-			<plot id="5616">[Other] Changed difficulty</plot>
-			<plot id="6022">[Other] Ignore Grinder Achievements</plot>
-			<plot id="3351">[End] Cerberus crew alive</plot>
-			<plot id="3515">[End] Gardner is dead</plot>
-			<plot id="3629">[End] Kelly is dead</plot>
-			<plot id="3630">[End] Chakwas is dead</plot>
-			<plot id="1831">[End] Collector Base Destroyed</plot>
-			<plot id="1832">[End] Collector Base Intact</plot>
-			<plot id="2050">[Mordin] Loyalty - Maelon killed</plot>
-			<plot id="2678">[Mordin] Loyalty - Maelon lives</plot>
-			<plot id="2676">[Mordin] Loyalty - Kept Maelon's data</plot>
-			<plot id="2677">[Mordin] Loyalty - Destroyed Maelon's data</plot>
-			<plot id="2933">[Tali] Loyalty - Rael'Zorah posthumously exiled (not loyal)</plot>
-			<plot id="2934">[Tali] Loyalty - Tali exiled (loyal)</plot>
-			<plot id="2935">[Tali] Loyalty - Tali cleared of charges (loyal)</plot>
-			<plot id="757">[Legion] Loyalty - Destroyed Heretics</plot>
-			<plot id="759">[Legion] Loyalty - Rewrote Heretics</plot>
-			<plot id="3321">[Captain's Cabin] Space Hamster</plot>
-			<plot id="3322">[Captain's Cabin] Illium Skald Fish</plot>
-			<plot id="3323">[Captain's Cabin] Thessian Sunfish</plot>
-			<plot id="3324">[Captain's Cabin] Prejek Paddle Fish</plot>
-			<plot id="3326">[Captain's Cabin] Model - Normandy SR1</plot>
-			<plot id="3328">[Captain's Cabin] Model - Destiny Ascension</plot>
-			<plot id="3329">[Captain's Cabin] Model - Sovereign</plot>
-			<plot id="3330">[Captain's Cabin] Model - Turian Cruiser</plot>
-			<plot id="3331">[Captain's Cabin] Model - Alliance Cruiser</plot>
-			<plot id="3332">[Captain's Cabin] Model - Flotilla Vessel</plot>
-			<plot id="3334">[Captain's Cabin] Model - UT-47 Kodiak Drop Shuttle (Alliance Heavy Cruiser)</plot>
-			<plot id="3337">[Captain's Cabin] Model - Athabasca Class Freighter</plot>
-			<plot id="3338">[Captain's Cabin] Model - Geth Ship</plot>
-			<plot id="7200">[Captain's Cabin] Model - Shadow Broker Base</plot>
-		</bools>
-	</category>
-	<category name="Henchmen">
-		<notes>
-Don't put extra people in your squad until after you meet The Illusive Man. There is a part of the introduction that will break (when Wilson joins your squad) if your party has Jacob and someone else in it already.
-    </notes>
 		<bools>
-			<plot id="21">Miranda in squad</plot>
-			<plot id="22">Jacob in squad</plot>
-			<plot id="23">Jack in squad</plot>
-			<plot id="24">Legion in squad</plot>
-			<plot id="25">Kasumi in squad</plot>
-			<plot id="26">Garrus in squad</plot>
-			<plot id="27">Thane in squad</plot>
-			<plot id="28">Tali in squad</plot>
-			<plot id="29">Mordin in squad</plot>
-			<plot id="30">Grunt in squad</plot>
-			<plot id="31">Samara in squad</plot>
-			<plot id="32">Zaeed in squad</plot>
-			<plot id="33">Miranda acquired</plot>
-			<plot id="34">Jacob acquired</plot>
-			<plot id="35">Jack acquired</plot>
-			<plot id="36">Legion acquired</plot>
-			<plot id="37">Kasumi acquired</plot>
-			<plot id="38">Garrus acquired</plot>
-			<plot id="39">Thane acquired</plot>
-			<plot id="40">Tali acquired</plot>
-			<plot id="41">Mordin acquired</plot>
-			<plot id="42">Grunt acquired</plot>
-			<plot id="43">Samara acquired</plot>
-			<plot id="44">Zaeed acquired</plot>
-			<plot id="177">Miranda is loyal</plot>
-			<plot id="178">Jacob is loyal</plot>
-			<plot id="179">Jack is loyal</plot>
-			<plot id="180">Legion is loyal</plot>
-			<plot id="182">Kasumi is loyal</plot>
-			<plot id="183">Garrus is loyal</plot>
-			<plot id="185">Thane is loyal</plot>
-			<plot id="186">Tali is loyal</plot>
-			<plot id="188">Mordin is loyal</plot>
-			<plot id="189">Grunt is loyal</plot>
-			<plot id="191">Samara is loyal</plot>
-			<plot id="192">Zaeed is loyal</plot>
-			<plot id="195">Miranda is dead</plot>
-			<plot id="196">Jacob is dead</plot>
-			<plot id="197">Jack is dead</plot>
-			<plot id="198">Legion is dead</plot>
-			<plot id="199">Kasumi is dead</plot>
-			<plot id="200">Garrus is dead</plot>
-			<plot id="201">Thane is dead</plot>
-			<plot id="202">Tali is dead</plot>
-			<plot id="203">Mordin is dead</plot>
-			<plot id="204">Grunt is dead</plot>
-			<plot id="205">Samara is dead</plot>
-			<plot id="206">Zaeed is dead</plot>
-			<plot id="207">Miranda is selectable</plot>
-			<plot id="208">Jacob is selectable</plot>
-			<plot id="209">Jack is selectable</plot>
-			<plot id="210">Legion is selectable</plot>
-			<plot id="211">Kasumi is selectable</plot>
-			<plot id="212">Garrus is selectable</plot>
-			<plot id="213">Thane is selectable</plot>
-			<plot id="214">Tali is selectable</plot>
-			<plot id="215">Mordin is selectable</plot>
-			<plot id="216">Grunt is selectable</plot>
-			<plot id="217">Samara is selectable</plot>
-			<plot id="218">Zaeed is selectable</plot>
-			<plot id="219">Miranda is specialized</plot>
-			<plot id="220">Jacob is specialized</plot>
-			<plot id="221">Jack is specialized</plot>
-			<plot id="222">Legion is specialized</plot>
-			<plot id="223">Kasumi is specialized</plot>
-			<plot id="224">Garrus is specialized</plot>
-			<plot id="225">Thane is specialized</plot>
-			<plot id="226">Tali is specialized</plot>
-			<plot id="227">Mordin is specialized</plot>
-			<plot id="228">Grunt is specialized</plot>
-			<plot id="229">Samara is specialized</plot>
-			<plot id="230">Zaeed is specialized</plot>
-			<plot id="312">Miranda in alternate appearance</plot>
-			<plot id="313">Jacob in alternate appearance</plot>
-			<plot id="314">Jack in alternate appearance</plot>
-			<plot id="315">Legion in alternate appearance</plot>
-			<plot id="317">Kasumi in alternate appearance</plot>
-			<plot id="318">Garrus in alternate appearance</plot>
-			<plot id="319">Thane in alternate appearance</plot>
-			<plot id="320">Tali in alternate appearance</plot>
-			<plot id="321">Mordin in alternate appearance</plot>
-			<plot id="322">Grunt in alternate appearance</plot>
-			<plot id="323">Samara in alternate appearance</plot>
-			<plot id="324">Zaeed in alternate appearance</plot>
-			<plot id="1664">Samara is Morinth</plot>
-			<plot id="3804">Miranda was loyal</plot>
-			<plot id="3805">Jacob was loyal</plot>
-			<plot id="3806">Jack was loyal</plot>
-			<plot id="3807">Legion was loyal</plot>
-			<plot id="3808">Kasumi was loyal</plot>
-			<plot id="3809">Garrus was loyal</plot>
-			<plot id="3810">Thane was loyal</plot>
-			<plot id="3811">Tali was loyal</plot>
-			<plot id="3812">Mordin was loyal</plot>
-			<plot id="3813">Grunt was loyal</plot>
-			<plot id="3814">Samara was loyal</plot>
-			<plot id="3815">Zaeed was loyal</plot>
-			<plot id="5048">Jack is revealed</plot>
-			<plot id="5049">Legion is revealed</plot>
-			<plot id="5050">Kasumi is revealed</plot>
-			<plot id="5051">Garrus is revealed</plot>
-			<plot id="5052">Thane is revealed</plot>
-			<plot id="5053">Tali is revealed</plot>
-			<plot id="5054">Mordin is revealed</plot>
-			<plot id="5055">Grunt is revealed</plot>
-			<plot id="5056">Samara is revealed</plot>
-			<plot id="5057">Zaeed is revealed</plot>
-			<plot id="6247">Miranda 1st appearance</plot>
-			<plot id="6248">Jacob 1st appearance</plot>
-			<plot id="6249">Jack 1st appearance</plot>
-			<plot id="6250">Legion 1st appearance</plot>
-			<plot id="6251">Kasumi 1st appearance</plot>
-			<plot id="6252">Garrus 1st appearance</plot>
-			<plot id="6253">Thane 1st appearance</plot>
-			<plot id="6254">Tali 1st appearance</plot>
-			<plot id="6255">Mordin 1st appearance</plot>
-			<plot id="6256">Grunt 1st appearance</plot>
-			<plot id="6257">Samara 1st appearance</plot>
-			<plot id="6258">Zaeed 1st appearance</plot>
-			<plot id="2288">Kasumi downloaded (??)</plot>
-			<plot id="2289">Zaeed downloaded (??)</plot>
+			<plot id="21">Squad: Miranda</plot>
+			<plot id="22">Squad: Jacob</plot>
+			<plot id="23">Squad: Jack</plot>
+			<plot id="24">Squad: Legion</plot>
+			<plot id="25">Squad: Kasumi</plot>
+			<plot id="26">Squad: Garrus</plot>
+			<plot id="27">Squad: Thane</plot>
+			<plot id="28">Squad: Tali</plot>
+			<plot id="29">Squad: Mordin</plot>
+			<plot id="30">Squad: Grunt</plot>
+			<plot id="31">Squad: Samara</plot>
+			<plot id="32">Squad: Zaeed</plot>
+			<plot id="33">Acquired: Miranda</plot>
+			<plot id="34">Acquired: Jacob</plot>
+			<plot id="35">Acquired: Jack</plot>
+			<plot id="36">Acquired: Legion</plot>
+			<plot id="37">Acquired: Kasumi</plot>
+			<plot id="38">Acquired: Garrus</plot>
+			<plot id="39">Acquired: Thane</plot>
+			<plot id="40">Acquired: Tali</plot>
+			<plot id="41">Acquired: Mordin</plot>
+			<plot id="42">Acquired: Grunt</plot>
+			<plot id="43">Acquired: Samara</plot>
+			<plot id="44">Acquired: Zaeed</plot>
+			<plot id="177">Loyal: Miranda</plot>
+			<plot id="178">Loyal: Jacob</plot>
+			<plot id="179">Loyal: Jack</plot>
+			<plot id="180">Loyal: Legion</plot>
+			<plot id="182">Loyal: Kasumi</plot>
+			<plot id="183">Loyal: Garrus</plot>
+			<plot id="185">Loyal: Thane</plot>
+			<plot id="186">Loyal: Tali</plot>
+			<plot id="188">Loyal: Mordin</plot>
+			<plot id="189">Loyal: Grunt</plot>
+			<plot id="191">Loyal: Samara</plot>
+			<plot id="192">Loyal: Zaeed</plot>
+			<plot id="195">Dead: Miranda</plot>
+			<plot id="196">Dead: Jacob</plot>
+			<plot id="197">Dead: Jack</plot>
+			<plot id="198">Dead: Legion</plot>
+			<plot id="199">Dead: Kasumi</plot>
+			<plot id="200">Dead: Garrus</plot>
+			<plot id="201">Dead: Thane</plot>
+			<plot id="202">Dead: Tali</plot>
+			<plot id="203">Dead: Mordin</plot>
+			<plot id="204">Dead: Grunt</plot>
+			<plot id="205">Dead: Samara</plot>
+			<plot id="206">Dead: Zaeed</plot>
+			<plot id="207">Selectable: Miranda</plot>
+			<plot id="208">Selectable: Jacob</plot>
+			<plot id="209">Selectable: Jack</plot>
+			<plot id="210">Selectable: Legion</plot>
+			<plot id="211">Selectable: Kasumi</plot>
+			<plot id="212">Selectable: Garrus</plot>
+			<plot id="213">Selectable: Thane</plot>
+			<plot id="214">Selectable: Tali</plot>
+			<plot id="215">Selectable: Mordin</plot>
+			<plot id="216">Selectable: Grunt</plot>
+			<plot id="217">Selectable: Samara</plot>
+			<plot id="218">Selectable: Zaeed</plot>
+			<plot id="219">Specialized: Miranda</plot>
+			<plot id="220">Specialized: Jacob</plot>
+			<plot id="221">Specialized: Jack</plot>
+			<plot id="222">Specialized: Legion</plot>
+			<plot id="223">Specialized: Kasumi</plot>
+			<plot id="224">Specialized: Garrus</plot>
+			<plot id="225">Specialized: Thane</plot>
+			<plot id="226">Specialized: Tali</plot>
+			<plot id="227">Specialized: Mordin</plot>
+			<plot id="228">Specialized: Grunt</plot>
+			<plot id="229">Specialized: Samara</plot>
+			<plot id="230">Specialized: Zaeed</plot>
+			<plot id="3804">WasLoyal: Miranda</plot>
+			<plot id="3805">WasLoyal: Jacob</plot>
+			<plot id="3806">WasLoyal: Jack</plot>
+			<plot id="3807">WasLoyal: Legion</plot>
+			<plot id="3808">WasLoyal: Kasumi</plot>
+			<plot id="3809">WasLoyal: Garrus</plot>
+			<plot id="3810">WasLoyal: Thane</plot>
+			<plot id="3811">WasLoyal: Tali</plot>
+			<plot id="3812">WasLoyal: Mordin</plot>
+			<plot id="3813">WasLoyal: Grunt</plot>
+			<plot id="3814">WasLoyal: Samara</plot>
+			<plot id="3815">WasLoyal: Zaeed</plot>
+			<plot id="5048">Revealed: Jack</plot>
+			<plot id="5049">Revealed: Legion</plot>
+			<plot id="5050">Revealed: Kasumi</plot>
+			<plot id="5051">Revealed: Garrus</plot>
+			<plot id="5052">Revealed: Thane</plot>
+			<plot id="5053">Revealed: Tali</plot>
+			<plot id="5054">Revealed: Mordin</plot>
+			<plot id="5055">Revealed: Grunt</plot>
+			<plot id="5056">Revealed: Samara</plot>
+			<plot id="5057">Revealed: Zaeed</plot>
+			<plot id="312">AltAppearance: Miranda</plot>
+			<plot id="313">AltAppearance: Jacob</plot>
+			<plot id="314">AltAppearance: Jack</plot>
+			<plot id="315">AltAppearance: Legion</plot>
+			<plot id="317">AltAppearance: Kasumi</plot>
+			<plot id="318">AltAppearance: Garrus</plot>
+			<plot id="319">AltAppearance: Thane</plot>
+			<plot id="320">AltAppearance: Tali</plot>
+			<plot id="321">AltAppearance: Mordin</plot>
+			<plot id="322">AltAppearance: Grunt</plot>
+			<plot id="323">AltAppearance: Samara</plot>
+			<plot id="324">AltAppearance: Zaeed</plot>
+			<plot id="6247">1stAppearance: Miranda</plot>
+			<plot id="6248">1stAppearance: Jacob</plot>
+			<plot id="6249">1stAppearance: Jack</plot>
+			<plot id="6250">1stAppearance: Legion</plot>
+			<plot id="6251">1stAppearance: Kasumi</plot>
+			<plot id="6252">1stAppearance: Garrus</plot>
+			<plot id="6253">1stAppearance: Thane</plot>
+			<plot id="6254">1stAppearance: Tali</plot>
+			<plot id="6255">1stAppearance: Mordin</plot>
+			<plot id="6256">1stAppearance: Grunt</plot>
+			<plot id="6257">1stAppearance: Samara</plot>
+			<plot id="6258">1stAppearance: Zaeed</plot>
+			<plot id="2288">Downloaded?: Kasumi</plot>
+			<plot id="2289">Downloaded?: Zaeed</plot>
+			<plot id="3349">Crew had no survivors</plot>
+			<plot id="3351">Cerberus Crew: Crew Alive</plot>
+			<plot id="3515">End: Mess Sgt. Rupert Gardner died</plot>
+			<plot id="3629">End: Yeoman Kelly Chambers died</plot>
+			<plot id="3630">End: Dr. Karin Chakwas died</plot>
+			<plot id="3631">Cerberus Crew: Kenneth Donnelly died</plot>
+			<plot id="3632">Cerberus Crew: Gabriella Daniels died</plot>
+			<plot id="3350">Cerberus Crew: Crew Dead</plot>
 		</bools>
 	</category>
-	<category name="Research">
+	<category name="ME2: Relationship">
+		<notes>
+Relationship progress integer values: 0=Haven't Talked, 1-4=Conversing, 5=Romance, 6=Broken Up
+Liara, Kaiden and Ashley's progress values are set on the Mass Effect 1 > Relationship > Integers tab.
+    </notes>
 		<ints>
-			<plot id="67">Medi-Gel Capacity (value 0-5)</plot>
-			<plot id="68">Assault Rifle Damage (value 0-5 or 6)</plot>
-			<plot id="69">Heavy Pistol Damage (value 0-5)</plot>
-			<plot id="71">Shotgun Damage (value 0-5)</plot>
-			<plot id="72">Sniper Rifle Damage (value 0-5)</plot>
-			<plot id="73">Shepard Heavy Skin Weave (value 0-5)</plot>
-			<plot id="75">Tech Damage (value 0-5)</plot>
+			<plot id="213">Jack progress</plot>
+			<plot id="266">Miranda progress</plot>
+			<plot id="267">Jacob progress</plot>
+			<plot id="270">Garrus progress</plot>
+			<plot id="271">Thane progress</plot>
+			<plot id="272">Tali progress</plot>
+			<plot id="275">Samara progress</plot>
+		</ints>
+		<bools>
+			<plot id="5209">Romanced: Miranda</plot>
+			<plot id="5208">Romanced: Jack</plot>
+			<plot id="3892">Romanced: Jacob</plot>
+			<plot id="5207">Romanced: Garrus</plot>
+			<plot id="3926">Romanced: Tali</plot>
+			<plot id="5206">Romanced: Thane</plot>
+			<plot id="7035">Romanced: Liara</plot>
+			<plot id="6286">Kelly Chambers: Invited Chambers to cabin</plot>
+			<plot id="6287">Kelly Chambers: Danced for Shepard</plot>
+			<plot id="3817">Kelly Chambers: Had dinner</plot>
+			<plot id="3304">Breakup: Miranda</plot>
+			<plot id="3270">Breakup: Jack</plot>
+			<plot id="3472">Breakup: Jacob</plot>
+			<plot id="3660">Breakup: Garrus</plot>
+			<plot id="3307">Breakup: Tali</plot>
+			<plot id="3310">Breakup: Thane</plot>
+			<plot id="6929">LotSB: Discussed relationship (Hagalaz)</plot>
+			<plot id="6931">LotSB: Toured Normandy</plot>
+			<plot id="6999">LotSB: Rejected romance (Hagalaz)</plot>
+			<plot id="7333">LotSB: Rekindled (Normandy cabin)</plot>
+			<plot id="6927">LotSB: Romanced (Normandy cabin)</plot>
+		</bools>
+	</category>
+	<category name="ME2: Research">
+		<ints>
+			<plot id="67">Medi-Gel Capacity (value 0-6)</plot>
+			<plot id="68">Assault Rifle Damage (value 0-6)</plot>
+			<plot id="69">Heavy Pistol Damage (value 0-6)</plot>
+			<plot id="71">Shotgun Damage (value 0-6)</plot>
+			<plot id="72">Sniper Rifle Damage (value 0-6)</plot>
+			<plot id="73">Shepard Heavy Skin Weave (value 0-6)</plot>
+			<plot id="75">Tech Damage (value 0-6)</plot>
 			<plot id="101">Squadmate Krogan Vitality (value 0-2)</plot>
 			<plot id="103">Biotic Damage (value 0-5)</plot>
 			<plot id="121">Squadmate Geth Shield Strength (value 0-2)</plot>
-			<plot id="426">SMG Damage (value 0-5)</plot>
-			<plot id="428">Heavy Weapon Ammo (value 0-6 or 7)</plot>
-			<plot id="434">Shields Damage Protection (value 0-5)</plot>
+			<plot id="426">SMG Damage (value 0-6)</plot>
+			<plot id="428">Heavy Weapon Ammo (value 0-7)</plot>
+			<plot id="434">Shields Damage Protection (value 0-6)</plot>
 			<plot id="427">Krogan Shotgun (value 0-2)</plot>
 			<plot id="116">Legion's Sniper Rifle (value 0-2)</plot>
 		</ints>
@@ -347,174 +529,137 @@ Don't put extra people in your squad until after you meet The Illusive Man. Ther
 			<plot id="5290">M-920 Cain unlocked</plot>
 		</bools>
 	</category>
-	<category name="Mission Rewards">
+	<category name="ME2: Captain's Cabin">
+		<ints>
+			<plot id="485">Illium Skald Fish state (0 alive, 3 dead)</plot>
+			<plot id="487">Prejek Paddle Fish state (0 alive, 3 dead)</plot>
+			<plot id="486">Thessian Sunfish state (0 alive, 3 dead)</plot>
+		</ints>
 		<bools>
-			<plot id="5794">ProCer</plot>
-			<plot id="5795">ProFre</plot>
-			<plot id="5796">HorCr1</plot>
-			<plot id="5797">ShpCr2</plot>
-			<plot id="5798">EndGm1</plot>
-			<plot id="5799">EndGm2_1</plot>
-			<plot id="5800">EndGm2_2</plot>
-			<plot id="5801">EndGm2_3</plot>
-			<plot id="5802">BchLmL</plot>
-			<plot id="5803">BlbGtl</plot>
-			<plot id="5804">CitAsL</plot>
-			<plot id="5805">JunCvL</plot>
-			<plot id="5806">KroKgL</plot>
-			<plot id="5807">KroPrL</plot>
-			<plot id="5808">OmgMwL</plot>
-			<plot id="5809">QuaTlL</plot>
-			<plot id="5810">TwrVxL</plot>
-			<plot id="5811">CitGrL</plot>
-			<plot id="5812">JnkKgA</plot>
-			<plot id="5813">OmgGrA</plot>
-			<plot id="5814">OmgPrA</plot>
-			<plot id="5815">PrsCvA</plot>
-			<plot id="5816">RprGtA</plot>
-			<plot id="5817">SunTlA</plot>
-			<plot id="5818">TwrAsA</plot>
-			<plot id="5819">TwrMwA</plot>
-			<plot id="5820">N7Shipwreck</plot>
-			<plot id="5821">N7Ruins</plot>
-			<plot id="5822">N7DriveBy</plot>
-			<plot id="5823">N7Spdr1</plot>
-			<plot id="5824">N7Spdr2</plot>
-			<plot id="5825">N7Spdr3</plot>
-			<plot id="5826">N7Geth2</plot>
-			<plot id="5827">N7BldInv1</plot>
-			<plot id="5828">N7VIQ1</plot>
-			<plot id="5829">N7BldInv2</plot>
-			<plot id="5830">N7VIQ3</plot>
-			<plot id="5831">N7Geth1</plot>
-			<plot id="5832">N7VIQ2</plot>
-			<plot id="5833">N7Crsh</plot>
-			<plot id="5834">N7mine</plot>
-			<plot id="5835">n7mmnt1</plot>
-			<plot id="5836">n7mmnt2</plot>
-			<plot id="5837">n7mmnt3</plot>
-			<plot id="5838">n7mmnt4</plot>
-			<plot id="5839">n7mmnt5</plot>
-			<plot id="5840">n7mmnt6</plot>
-			<plot id="5841">n7mmnt7</plot>
-			<plot id="5842">n7mmnt8</plot>
-			<plot id="5843">n7mmnt10</plot>
-			<plot id="5844">Astrosmash</plot>
-			<plot id="5845">norcook</plot>
-			<plot id="5846">nordoc</plot>
-			<plot id="5847">noreng</plot>
-			<plot id="5848">twrhack</plot>
-			<plot id="5849">twrobs</plot>
-			<plot id="5850">twrrose</plot>
-			<plot id="5851">twrconrad</plot>
-			<plot id="5852">twrferos</plot>
-			<plot id="5853">twrgianna</plot>
-			<plot id="5854">twrslave</plot>
-			<plot id="5855">twrlocket</plot>
-			<plot id="5856">twrfamily</plot>
-			<plot id="5857">twrgoods</plot>
-			<plot id="5858">omgish</plot>
-			<plot id="5859">omgoracle</plot>
-			<plot id="5860">omgsun</plot>
-			<plot id="5861">omgbekke</plot>
-			<plot id="5862">omgaria</plot>
-			<plot id="5863">asaworkers</plot>
-			<plot id="5864">kroratch</plot>
-			<plot id="5865">kromech</plot>
-			<plot id="5866">citfish</plot>
-			<plot id="5867">citquarian</plot>
-			<plot id="5868">citreport</plot>
-			<plot id="5869">citasari</plot>
-			<plot id="5870">mwaelnora</plot>
-			<plot id="5871">mwapitne</plot>
-			<plot id="5873">prabatarian</plot>
-			<plot id="5874">pradaniel</plot>
-			<plot id="5875">prlbrain</plot>
+			<plot id="3321">Obtained Space Hamster</plot>
+			<plot id="3322">Obtained Illium Skald Fish</plot>
+			<plot id="3323">Obtained Thessian Sunfish</plot>
+			<plot id="3324">Obtained Prejek Paddle Fish</plot>
+			<plot id="3326">Model: Normandy SR1</plot>
+			<plot id="3328">Model: Destiny Ascension</plot>
+			<plot id="3329">Model: Sovereign</plot>
+			<plot id="3330">Model: Turian Cruiser</plot>
+			<plot id="3331">Model: Alliance Cruiser</plot>
+			<plot id="3332">Model: Flotilla Vessel</plot>
+			<plot id="3334">Model: UT-47 Kodiak Drop Shuttle (Alliance Heavy Cruiser)</plot>
+			<plot id="3337">Model: Athabasca Class Freighter</plot>
+			<plot id="3338">Model: Geth Ship</plot>
+			<plot id="7200">Model: Shadow Broker Base</plot>
+			<plot id="3327">unknown, ME2Success plot</plot>
+			<plot id="3333">unknown, ME2Success plot</plot>
+			<plot id="3335">unknown, ME2Success plot</plot>
+			<plot id="3336">unknown, ME2Success plot</plot>
+		</bools>
+	</category>
+	<category name="ME2: Character">
+		<bools>
+			<plot id="2279">Played ME1 (ticked both)</plot>
+			<plot id="6530">Played ME1 (ticked both)</plot>
+			<plot id="1456">Game Completed</plot>
+			<plot id="5616">Changed difficulty</plot>
+			<plot id="5978">Cosmetic Surgery applied</plot>
+			<plot id="5979">Cosmetic Surgery unlocked</plot>
+			<plot id="6022">Ignore Grinder Achievements</plot>
+			<plot id="7447">Genesis: Played</plot>
 		</bools>
 	</category>
 	<category name="ME1 Imported plot table*">
 		<notes>
 Directly modifies imported ME1 decisions so using NG+ is no longer needed (big thanks to Epic Legion for making this available).
 
-Conrad Verner import bugfix:
-- Untick [Conrad] (3) Intimidated Conrad (Renegade)
-- Make sure [Conrad] (1) and (2) flags are enabled
-- Only works if you didn't talk to asari
+Related to Conrad Verner's quest in ME3:
+Citadel: The Fan, Met him AND one of the Fan outcomes that did NOT get him killed
+To mark Asari Writings as completed, set Asari Writings to 10 or 16.
+Citadel: Keepers scanned valid values are 0-21.
+Citadel: Scan the Keepers, Accepted quest outcome
+Citadel: Rita's Sister, Completed assignment
+Feros: Data Recovery, Retrieved data
+Purchased Elkoss Combine license
+
+Also set necessary volume resources (GAW Assets ME3)
+in ME1 Plot table
     </notes>
 		<bools multicolumn="false">
-			<plot id="1528">[Romance] Romanced Ashley</plot>
-			<plot id="1529">[Romance] Romanced Kaidan</plot>
-			<plot id="1530">[Romance] Romanced Liara</plot>
-			<plot id="1926">[Romance] No romance</plot>
-			<plot id="2400">[Garrus] Recruited</plot>
-			<plot id="3922">[Garrus] Paragon (C-Sec)</plot>
-			<plot id="3923">[Garrus] Renegade (Spectre)</plot>
-			<plot id="1535">[Origin] Colonist</plot>
-			<plot id="1534">[Origin] Earthborn</plot>
-			<plot id="1533">[Origin] Spacer</plot>
-			<plot id="1539">[Notoriety] Ruthless</plot>
-			<plot id="1537">[Notoriety] Survivor</plot>
-			<plot id="1538">[Notoriety] War Hero</plot>
-			<plot id="1531">[Tali] Plot completed (gave her a copy of the geth data)</plot>
-			<plot id="3716">[Interview] Punched reporter</plot>
-			<plot id="3750">[Interview] Excused himself or refused interview</plot>
-			<plot id="5210">[Citadel] Met Harkin</plot>
-			<plot id="2152">[Consort] Received Trinket or used it</plot>
-			<plot id="3733">[Citadel] Fist alive</plot>
-			<plot id="3141">[Conrad] (1) Had first conversation with Conrad</plot>
-			<plot id="3142">[Conrad] (2) Charmed Conrad (Paragon)</plot>
-			<plot id="3144">[Conrad] (4) Go away (got him killed?)</plot>
-			<plot id="3143">[Conrad] (3) Intimidated Conrad (Renegade)</plot>
-			<plot id="3145">[Conrad] (5) No conversation with Conrad</plot>
-			<plot id="3046">[Feros] Zhu Hope saved</plot>
-			<plot id="3197">[Feros] Shiala alive</plot>
-			<plot id="3150">[Noveria] Parasini not betrayed</plot>
-			<plot id="3149">[Noveria] Gave evidence to Parasini</plot>
-			<plot id="3151">[Noveria] Rachni Queen alive</plot>
-			<plot id="1540">[Virmire] Rescued Kaidan</plot>
-			<plot id="1862">[Virmire] Wrex killed by Ashley</plot>
-			<plot id="1541">[Virmire] Rescued Ashley</plot>
-			<plot id="3390">[Virmire] Geth Flyers disabled &amp; reported</plot>
-			<plot id="2278">[Virmire] Psyrana dead (maybe Kirrahe?)</plot>
-			<plot id="3752">[Virmire] Wrex killed by Ashley or player</plot>
-			<plot id="1556">[End] Chosen Anderson</plot>
-			<plot id="1554">[End] Saved the council</plot>
-			<plot id="1553">[End] Destroyed the council</plot>
-			<plot id="1555">[End] Chosen Udina</plot>
-			<plot id="2366">[Cerberus] Found Cerberus files</plot>
-			<plot id="2365">[Cerberus] Heard of Cerberus</plot>
-			<plot id="3773">[Other] Got Elkoss license</plot>
-			<plot id="1259">[Nassana] Killed her sister</plot>
-			<plot id="1260">[Nassana] Player knows about plot</plot>
-			<plot id="3731">[Hostile Takeover] Accepted money</plot>
-			<plot id="3732">[Hostile Takeover] Persuaded criminal</plot>
-			<plot id="2659">[Garrus] Recruited</plot>
-			<plot id="3753">[Wrex] Recruited</plot>
-			<plot id="5376">[Consort] Quest completed</plot>
-			<plot id="5382">[Doctor Michel] Black mailer persuaded</plot>
-			<plot id="5383">[Doctor Michel] Black mailer killed</plot>
-			<plot id="5386">[Chorban] Accepted keepers quest</plot>
-			<plot id="5388">[Chorban] Killed</plot>
-			<plot id="5389">[Chorban] Scared off</plot>
-			<plot id="5372">[Citadel] RP105a_Expose_Quest_Completed_Gave_Info</plot>
-			<plot id="5369">[Citadel] Returned Nirali Bhatia body to her husband</plot>
-			<plot id="5352">[Spacer] Spoke to Mom</plot>
-			<plot id="5348">[Colonist] Talked Talitha down</plot>
-			<plot id="5349">[Colonist] Bait and switch</plot>
-			<plot id="5353">[Earthborn] Met Finch</plot>
-			<plot id="5355">[Earthborn] Killed Finch</plot>
-			<plot id="5363">[Feros] Good+ outcome</plot>
-			<plot id="5364">[Feros] Good outcome</plot>
-			<plot id="5366">[Feros] Fail outcome</plot>
-			<plot id="5367">[Feros] Renegade outcome</plot>
-			<plot id="5374">[Noveria] Gave evidence to Lorik Quin</plot>
-			<plot id="5384">[Noveria] Talked to Han Olar</plot>
-			<plot id="5377">[Biotics] Chairman died</plot>
-			<plot id="5379">[Biotics] Biotics killed</plot>
-			<plot id="5380">[Biotics] Biotics surrendered</plot>
-			<plot id="5358">[Dead Scientists] Convinced Toombs</plot>
-			<plot id="5359">[Dead Scientists] Killed scientist</plot>
-			<plot id="5361">[BDtS] Hostages rescued</plot>
+			<plot id="1259">Asari Diplomacy: Killed Dahlia</plot>
+			<plot id="1260">Asari Diplomacy: Player knows about plot</plot>
+			<plot id="1531">Tali and the Geth: Gave Tali data from Geth Incursions </plot>
+			<plot id="1533">Origin: Spacer</plot>
+			<plot id="1534">Origin: Earthborn</plot>
+			<plot id="1535">Origin: Colonist</plot>
+			<plot id="1537">Notoriety: Survivor</plot>
+			<plot id="1538">Notoriety: War Hero</plot>
+			<plot id="1539">Notoriety: Ruthless</plot>
+			<plot id="1540">Virmire: Assault: Rescue Kaidan</plot>
+			<plot id="1541">Virmire: Assault: Rescue Ashley</plot>
+			<plot id="1553">Race Against Time: Final Battle, Abandon the Council</plot>
+			<plot id="1554">Race Against Time: Final Battle, Save the Council</plot>
+			<plot id="1555">Race Against Time: Final Battle, Choose Udina</plot>
+			<plot id="1556">Race Against Time: Final Battle, Choose Anderson</plot>
+			<plot id="1862">Virmire: Wrex and the Genophage, Wrex killed by Ashley</plot>
+			<plot id="2152">Citadel: Asari Consort, Received Trinket or used it</plot>
+			<plot id="2277">Virmire: Assault: Rana Thanoptis is alive</plot>
+			<plot id="2278">Virmire: Assisting Kirrahe's Team, Psyrana dead (maybe Kirrahe?)</plot>
+			<plot id="2365">Cerberus: Heard of Cerberus</plot>
+			<plot id="2366">Cerberus: Hades' Dogs, Found Cerberus files</plot>
+			<plot id="2400">Garrus: Recruited 1</plot>
+			<plot id="2659">Garrus: Recruited 2</plot>
+			<plot id="3046">Feros: The Thorian, Zhu's Hope saved</plot>
+			<plot id="3141">Citadel: The Fan, Had first conversation with Conrad</plot>
+			<plot id="3142">Citadel: The Fan, Charmed Conrad (Paragon)</plot>
+			<plot id="3143">Citadel: The Fan 3, Intimidated Conrad (Renegade)</plot>
+			<plot id="3144">Citadel: The Fan, Go away (got him killed?)</plot>
+			<plot id="3145">Citadel: The Fan, No conversation with Conrad</plot>
+			<plot id="3149">Noveria: Peak 15: Give evidence to Gianna Parasini</plot>
+			<plot id="3150">Noveria: Peak 15: Betray Gianna Parasini</plot>
+			<plot id="3151">Noveria: Geth Interest: Released Rachni Queen</plot>
+			<plot id="3197">Feros: The Thorian: Shiala alive</plot>
+			<plot id="3198">Feros: The Thorian: Shiala killed</plot>
+			<plot id="3390">Virmire: Assisting Kirrahe's Team, Geth Flyers disabled and reported</plot>
+			<plot id="3716">Citadel: The Fourth Estate, Renegade outcome</plot>
+			<plot id="3731">Hostile Takeover; Accepted money</plot>
+			<plot id="3732">Hostile Takeover: Persuaded criminal</plot>
+			<plot id="3733">Citadel: Fist Released</plot>
+			<plot id="3750">Citadel: The Fourth Estate, Paragon outcome</plot>
+			<plot id="3752">Virmire: Wrex and the Genophage, Wrex killed by Ashley or player</plot>
+			<plot id="3753">Wrex: Recruited 2</plot>
+			<plot id="3773">Other: Got Elkoss license</plot>
+			<plot id="3922">Garrus Alignment Paragon (C-Sec)</plot>
+			<plot id="3923">Garrus Alignment Renegade (Spectre)</plot>
+			<plot id="1528">Romancing Ashley</plot>
+			<plot id="1529">Romancing Kaidan</plot>
+			<plot id="1530">Romancing Liara</plot>
+			<plot id="1926">Romancing Somebody</plot>
+			<plot id="5210">Citadel: Harkin: Met him</plot>
+			<plot id="5348">Citadel: Colonist - I Remember Me, Talked Talitha down</plot>
+			<plot id="5349">Citadel: Colonist - I Remember Me, Bait and switch</plot>
+			<plot id="5352">Citadel: Spacer - Old, Unhappy, Far-Off Things, Spoke to Mom</plot>
+			<plot id="5353">Citadel: Earthborn - Old Friends, Met Finch</plot>
+			<plot id="5355">Citadel: Earthborn - Old Friends, Killed Finch</plot>
+			<plot id="5358">Dead Scientists: Convinced Toombs</plot>
+			<plot id="5359">Dead Scientists: Killed scientists</plot>
+			<plot id="5361">Bring Down the Sky: Rescue Humans</plot>
+			<plot id="5363">Feros: Good+ choice</plot>
+			<plot id="5364">Feros: Good choice</plot>
+			<plot id="5366">Feros: Fail choice</plot>
+			<plot id="5367">Feros: Renegade choice</plot>
+			<plot id="5369">Citadel: Homecoming, Returned Nirali Bhatia's body choice</plot>
+			<plot id="5372">Citadel: RP105a_Expose_Quest_Completed_Gave_Info</plot>
+			<plot id="5374">Noveria: Peak 15, Give evidence to Lorik Quin</plot>
+			<plot id="5376">Citadel: Asari Consort, Completed quest</plot>
+			<plot id="5377">Major Kyle: Fought Kyle</plot>
+			<plot id="5379">Major Kyle: Fought Cultists</plot>
+			<plot id="5380">Major Kyle: Kyle surrendered</plot>
+			<plot id="5382">Citadel: Doctor Michel, Black mailer persuaded</plot>
+			<plot id="5383">Citadel: Doctor Michel, Black mailer killed</plot>
+			<plot id="5384">Noveria: Han Olar, Met him</plot>
+			<plot id="5386">Citadel: Scan the Keepers, Accepted quest choice</plot>
+			<plot id="5388">Citadel: Scan the Keepers, Killed him choice</plot>
+			<plot id="5389">Citadel: Scan the Keepers, Scared him off choice</plot>
 		</bools>
 	</category>
 	<category name="ME1 Plot table*" legacy="true">
@@ -523,96 +668,119 @@ Note: Some values (such as paragon points, origin, etc) may be coming from the M
 
 To count as romanced someone, check their romancing flag and set their progress value to 4. Also check [Player] Romanced someone.
 To count as having pushed Garrus toward paragon or renegade path, set the progress value to 4.
-[Player] Origin values: 1 = Spacer, 2 = Colonist, 3 = Earthborn
-[Player] Notoriety values: 1 = Survivor, 2 = War Hero, 3 = Ruthless
+Origin values: 1 = Spacer, 2 = Colonist, 3 = Earthborn
+Notoriety values: 1 = Survivor, 2 = War Hero, 3 = Ruthless
 Paragon / renegade bonus points come from the ME2 character, so edit those values on the Player tab.
 
 You can set the End Game State under the Plot section on the Raw tab.
     </notes>
-		<ints>
-			<plot id="1">[Player] Origin</plot>
-			<plot id="2">[Player] Notoriety</plot>
-			<plot id="47">[Player] Paragon points</plot>
-			<plot id="46">[Player] Renegade points</plot>
-			<plot id="39">[Citadel: Scan the Keepers] Number of keepers scanned</plot>
-			<plot id="17">[Player] Romance progress with Ashley</plot>
-			<plot id="15">[Player] Romance progress with Kaidan</plot>
-			<plot id="16">[Player] Romance progress with Liara</plot>
-			<plot id="37">[Henchmen] Garrus pushed toward C-Sec progress (paragon)</plot>
-			<plot id="38">[Henchmen] Garrus pushed toward Spectres progress (renegade)</plot>
+		<ints multicolumn="true">
+			<plot id="1">Origin 0-3</plot>
+			<plot id="2">Notoriety 0-3</plot>
+			<plot id="47">Paragon points</plot>
+			<plot id="46">Renegade points</plot>
+			<plot id="43">League Medallions (0-10 or more)</plot>
+			<plot id="48">Light Metals (0-20 or more)</plot>
+			<plot id="50">Heavy Metals (0-20 or more)</plot>
+			<plot id="51">Gases (0-6 or more)</plot>
+			<plot id="52">Rare Earths (0-20 or more)</plot>
+			<plot id="53">Prothean Artifact (0-20 or more)</plot>
+			<plot id="54">Asari Writings(0-10 max 16)</plot>
+			<plot id="55">Turian Emblem (0-13 or more)</plot>
+			<plot id="56">Salarian ID Tags (0-3 or more)</plot>
+			<plot id="39">Citadel: Keepers scanned (0-21)</plot>
+			<plot id="15">Kaidan progress (0-4)</plot>
+			<plot id="16">Liara progress (0-4)</plot>
+			<plot id="17">Ashley progress (0-4)</plot>
+			<plot id="37">Garrus Paragon progress (0-4)</plot>
+			<plot id="38">Garrus Renegade progress (0-4)</plot>
 		</ints>
 		<bools multicolumn="false">
-			<plot id="3941">[Henchmen] Garrus recruited</plot>
-			<plot id="3942">[Henchmen] Wrex recruited</plot>
-			<plot id="4281">[Player] Romancing Ashley</plot>
-			<plot id="3960">[Player] Romancing Kaidan</plot>
-			<plot id="4169">[Player] Romancing Liara</plot>
-			<plot id="6528">[Player] Romanced someone</plot>
-			<plot id="4596">[Tali and the Geth] Gave Tali a copy of the data found in UNC: Geth Incursions</plot>
-			<plot id="4768">[Citadel: The Fourth Estate] Punched her</plot>
-			<plot id="4767">[Citadel: The Fourth Estate] Excused themself (looked good)</plot>
-			<plot id="4766">[Citadel: The Fourth Estate] Refused interview (looked bad)</plot>
-			<plot id="3979">[Citadel] Talked to Harkin</plot>
-			<plot id="5853">[Citadel: Asari Consort] Completed quest</plot>
-			<plot id="4032">[Citadel: Asari Consort] Received Trinket</plot>
-			<plot id="7015">[Citadel: Asari Consort] Used Trinket on Eletania</plot>
-			<plot id="7270">[Citadel] Released Fist</plot>
-			<plot id="4731">[Citadel: The Fan] Met Conrad Verner</plot>
-			<plot id="4914">[Citadel: The Fan] Charmed him</plot>
-			<plot id="4915">[Citadel: The Fan] Got him killed</plot>
-			<plot id="4913">[Citadel: The Fan] Intimidated him</plot>
-			<plot id="2514">[Feros] Too many colonists killed</plot>
-			<plot id="2490">[Feros] Intimidated Ethan Jeong</plot>
-			<plot id="2491">[Feros] Convinced Ethan Jeong</plot>
-			<plot id="4133">[Feros] Released Shiala</plot>
-			<plot id="3798">[Feros] Killed Shiala</plot>
-			<plot id="2713">[Noveria] Betrayed Gianna Parasini</plot>
-			<plot id="2690">[Noveria] Gave evidence to Gianna Parasini</plot>
-			<plot id="2687">[Noveria] Gave evidence to Lorik Qui'in</plot>
-			<plot id="2587">[Noveria] Rachni Queen released</plot>
-			<plot id="3828">[Virmire] Rescued Kaidan</plot>
-			<plot id="3827">[Virmire] Rescued Ashley</plot>
-			<plot id="3029">[Virmire] Wrex killed by Shepard</plot>
-			<plot id="3028">[Virmire] Wrex killed by Ashley</plot>
-			<plot id="5543">[Virmire] Wrex killed by Ashley, without permission</plot>
-			<plot id="4464">[Virmire: Assisting Kirrahe's Team] Geth flyers disabled</plot>
-			<plot id="4459">[Virmire: Assisting Kirrahe's Team] Geth flyers reported</plot>
-			<plot id="6058">[Virmire] Killed Rana Thanoptis</plot>
-			<plot id="5434">[Citadel] Chose Udina</plot>
-			<plot id="5435">[Citadel] Chose Anderson</plot>
-			<plot id="3001">[Citadel] Saved the Council</plot>
-			<plot id="3002">[Citadel] Abandoned the Council</plot>
-			<plot id="4608">"Fought Cerberus" ??? maybe -> [UNC: Hades' Dogs] Found files</plot>
-			<plot id="5885">"Heard of Cerberus" ??? maybe -> [UNC: Cerberus] Obtained quest</plot>
-			<plot id="7164">[Contract and Licenses] Got Elkoss Combine license</plot>
-			<plot id="6848">[UNC: Asari Diplomacy] Killed sister</plot>
-			<plot id="4621">[UNC: Asari Diplomacy] Met Nassana</plot>
-			<plot id="5014">[UNC: Hostile Takeover] Accepted money</plot>
-			<plot id="5015">[UNC: Hostile Takeover] Persuaded criminal to disband gang</plot>
-			<plot id="7156">[Player] Rich</plot>
-			<plot id="3872">[Citadel: Doctor Michel] Persuaded blackmailer</plot>
-			<plot id="3873">[Citadel: Doctor Michel] Killed blackmailer</plot>
-			<plot id="6922">[Citadel: Scan the Keepers] Accepted quest</plot>
-			<plot id="3880">[Citadel: Scan the Keepers] Killed Chorban</plot>
-			<plot id="3881">[Citadel: Scan the Keepers] Scared off Chorban</plot>
-			<plot id="4948">[Citadel] RP105a_Expose_Quest_Completed_Gave_Info</plot>
-			<plot id="4820">[Citadel: Homecoming] Returned body</plot>
-			<plot id="4926">[Citadel: Old, Unhappy, Far-Off Things] Spoke to Mom</plot>
-			<plot id="4861">[Citadel: I Remember Me] Talked Talitha down</plot>
-			<plot id="4862">[Citadel: I Remember Me] Bait and switch</plot>
-			<plot id="4847">[Citadel: Old Friends] Met Finch</plot>
-			<plot id="4855">[Citadel: Old Friends] Killed Finch</plot>
-			<plot id="6252">[Feros] Outcome_Give_Good_Plus</plot>
-			<plot id="6253">[Feros] Outcome_Give_Good</plot>
-			<plot id="6380">[Feros] Outcome_Give_Fail</plot>
-			<plot id="6254">[Feros] Outcome_Renegade</plot>
-			<plot id="3860">[Noveria] Talked to Han Olar</plot>
-			<plot id="4883">[UNC: Hostage] Chairman Burns died</plot>
-			<plot id="4885">[UNC: Hostage] Killed biotics</plot>
-			<plot id="4886">[UNC: Hostage] Biotics surrendered</plot>
-			<plot id="5038">[UNC: Dead Scientists] Convinced Corporal Toombs</plot>
-			<plot id="5039">[UNC: Dead Scientists] Killed scientist</plot>
-			<plot id="7317">[DLC: Bring Down the Sky] Humans rescued</plot>
+			<plot id="2490">Feros: Ethan Jeong, Intimidated</plot>
+			<plot id="2491">Feros: Ethan Jeong, Convinced</plot>
+			<plot id="2514">Feros: The Thorian, Too many colonists killed</plot>
+			<plot id="2587">Noveria: Geth Interest, Release Rachni Queen</plot>
+			<plot id="2588">Noveria: Geth Interest, Kill Rachni Queen</plot>
+			<plot id="2687">Noveria: Peak 15, Gave evidence to Lorik Qui'in</plot>
+			<plot id="2690">Noveria: Peak 15, Gave evidence to Gianna Parasini</plot>
+			<plot id="2713">Noveria: Peak 15, Betrayed Gianna Parasini</plot>
+			<plot id="2883">Feros: Data Recovery, Retrieved data</plot>
+			<plot id="3001">Race Against Time: Final Battle, Council was saved</plot>
+			<plot id="3002">Race Against Time: Final Battle, Abandoned the Council</plot>
+			<plot id="3024">Virmire: Wrex and the Genophage, Wrex Alive</plot>
+			<plot id="3028">Virmire: Wrex and the Genophage, Wrex killed by Ashley</plot>
+			<plot id="3029">Virmire: Wrex and the Genophage, Wrex killed by Shepard</plot>
+			<plot id="3798">Feros: The Thorian, Killed Shiala</plot>
+			<plot id="3827">Virmire: Assault, Rescued Ashley</plot>
+			<plot id="3828">Virmire: Assault, Rescued Kaidan</plot>
+			<plot id="3860">Noveria: Han Olar, Talked to him</plot>
+			<plot id="3872">Citadel: Doctor Michel, Persuaded blackmailer</plot>
+			<plot id="3873">Citadel: Doctor Michel, Killed blackmailer</plot>
+			<plot id="3880">Citadel: Scan the Keepers, Killed Chorban</plot>
+			<plot id="3881">Citadel: Scan the Keepers, Scared him off outcome</plot>
+			<plot id="3899">Citadel: Rita's Sister: Completed assignment</plot>
+			<plot id="3939">Kaiden: Recruited</plot>
+			<plot id="3940">Ashley: Recruited</plot>
+			<plot id="3941">Garrus: Recruited</plot>
+			<plot id="3942">Wrex: Recruited</plot>
+			<plot id="3960">Romancing Kaidan</plot>
+			<plot id="3979">Citadel: Harkin: Talked to him</plot>
+			<plot id="3980">Citadel: Barla Von: Met him</plot>
+			<plot id="4032">Citadel: Asari Consort, Received Trinket</plot>
+			<plot id="4133">Feros: The Thorian, Shiala released</plot>
+			<plot id="4169">Romancing Liara</plot>
+			<plot id="4281">Romancing Ashley</plot>
+			<plot id="4459">Virmire: Assisting Kirrahe's Team, Geth Flyers reported</plot>
+			<plot id="4464">Virmire: Assisting Kirrahe's Team, Geth Flyers disabled</plot>
+			<plot id="4509">Normandy: Sided against Vrynnus while speaking to Kaiden</plot>
+			<plot id="4596">Geth Incursions: Found data for Tali</plot>
+			<plot id="4608">Cerberus: Hades' Dogs, Found Cerberus files</plot>
+			<plot id="4621">Asari Diplomacy: Met Nassana</plot>
+			<plot id="4631">Normandy: Didn't judge about Rahna while speaking to Kaiden</plot>
+			<plot id="4682">Rogue VI: Completed assignment</plot>
+			<plot id="4731">Citadel: The Fan, Met him</plot>
+			<plot id="4766">Citadel: The Fourth Estate, Refused interview</plot>
+			<plot id="4767">Citadel: The Fourth Estate, Excused yourself</plot>
+			<plot id="4768">Citadel: The Fourth Estate, Punched her</plot>
+			<plot id="4820">Citadel: Homecoming, Returned Nirali Bhatia's body outcome</plot>
+			<plot id="4847">Citadel: Earthborn - Old Friends, Met Finch</plot>
+			<plot id="4855">Citadel: Earthborn - Old Friends, Killed Finch</plot>
+			<plot id="4861">Citadel: Colonist - I Remember Me, Talked Talitha down</plot>
+			<plot id="4862">Citadel: Colonist - I Remember Me, Bait and switch</plot>
+			<plot id="4883">Hostage: Chairman Burns died</plot>
+			<plot id="4885">Hostage: Killed biotics</plot>
+			<plot id="4886">Hostage: Biotics surrendered</plot>
+			<plot id="4913">Citadel: The Fan, Intimidated him</plot>
+			<plot id="4914">Citadel: The Fan, Charmed him</plot>
+			<plot id="4915">Citadel: The Fan, Got him killed</plot>
+			<plot id="4926">Citadel: Spacer - Old, Unhappy, Far-Off Things, Spoke to Mom</plot>
+			<plot id="4948">Citadel: Reporter's Request: Gave OSD information to Emily Wong</plot>
+			<plot id="5014">Hostile Takeover: Accepted money</plot>
+			<plot id="5015">Hostile Takeover: Persuaded criminal to disband gang</plot>
+			<plot id="5038">Dead Scientists: Convinced Corporal Toombs</plot>
+			<plot id="5039">Dead Scientists: Killed scientist</plot>
+			<plot id="5336">Wrex: Family Armor, Completed assignment</plot>
+			<plot id="5434">Race Against Time: Final Battle, Chose Udina</plot>
+			<plot id="5435">Race Against Time: Final Battle, Chose Anderson</plot>
+			<plot id="5543">Virmire: Wrex and the Genophage, Wrex killed by Ashley, without permission</plot>
+			<plot id="5853">Citadel: Asari Consort, Completed quest</plot>
+			<plot id="5885">Cerberus: Obtained quest</plot>
+			<plot id="5943">Citadel: Garrus, Saved Dr. Michel from Fist's thugs</plot>
+			<plot id="6058">Virmire: Assault, Killed Rana Thanoptis</plot>
+			<plot id="6252">Feros: Good+ outcome</plot>
+			<plot id="6253">Feros: Good outcome</plot>
+			<plot id="6254">Feros: Renegade outcome</plot>
+			<plot id="6380">Feros: Fail outcome</plot>
+			<plot id="6528">Romancing Somebody</plot>
+			<plot id="6848">Asari Diplomacy: Killed Dahlia</plot>
+			<plot id="6922">Citadel: Scan the Keepers, Accepted quest outcome</plot>
+			<plot id="7015">Citadel: Asari Consort, Used Trinket on Eletania</plot>
+			<plot id="7156">Achievement: Rich</plot>
+			<plot id="7164">Purchased Elkoss Combine license</plot>
+			<plot id="7270">Citadel: Fist Alive</plot>
+			<plot id="7291">Bring Down the Sky: Completed assignment</plot>
+			<plot id="7315">Bring Down the Sky: Killed Balak</plot>
+			<plot id="7317">Bring Down the Sky: Rescued Humans</plot>
 		</bools>
 	</category>
 </categories>
