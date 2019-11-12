@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -123,6 +123,7 @@ XanderChaos - Xbox 360 save support.
 Epic Legion - ME1 Imported plot variables.
 Þórdís Shepard - Updating, fixing and maintaining the editor.
 Vaporizer - New ME2 plot variables and updating/fixing the editor.
+Yggge - New ME1/ME2 plot variables, updating/fixing and reorganization of tabs the editor.
 And probably a lot of other people not mentioned here.</value>
   </data>
 </root>
