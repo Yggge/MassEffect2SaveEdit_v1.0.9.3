@@ -388,15 +388,10 @@ Liara, Kaiden and Ashley's progress values are set on the Mass Effect 1 > Relati
 			<plot id="73">Shepard Heavy Skin Weave (value 0-6)</plot>
 			<plot id="75">Tech Damage (value 0-6)</plot>
 			<plot id="101">Squadmate Krogan Vitality (value 0-2)</plot>
-			<plot id="103">Biotic Damage (value 0-5)</plot>
-			<plot id="121">Squadmate Geth Shield Strength (value 0-2)</plot>
-			<plot id="426">SMG Damage (value 0-6)</plot>
-			<plot id="428">Heavy Weapon Ammo (value 0-7)</plot>
-			<plot id="434">Shields Damage Protection (value 0-6)</plot>
-			<plot id="427">Krogan Shotgun (value 0-2)</plot>
-			<plot id="116">Legion's Sniper Rifle (value 0-2)</plot>
 		</ints>
 		<bools>
+			<plot id="430">Received Bypass Module</plot>
+			<plot id="431">Received Hack module</plot>
 			<plot id="6038">Assault Rifle Damage discovered</plot>
 			<plot id="6051">Assault Rifle Damage unlocked</plot>
 			<plot id="6040">SMG Damage discovered</plot>
@@ -528,6 +523,17 @@ Liara, Kaiden and Ashley's progress values are set on the Mass Effect 1 > Relati
 			<plot id="5291">M-920 Cain discovered</plot>
 			<plot id="5290">M-920 Cain unlocked</plot>
 		</bools>
+	</category>
+	<category name="ME2: Research2">
+		<ints>
+			<plot id="103">Biotic Damage (value 0-5)</plot>
+			<plot id="116">Legion's Sniper Rifle (value 0-2)</plot>
+			<plot id="121">Squadmate Geth Shield Strength (value 0-2)</plot>
+			<plot id="426">SMG Damage (value 0-6)</plot>
+			<plot id="428">Heavy Weapon Ammo (value 0-7)</plot>
+			<plot id="434">Shields Damage Protection (value 0-6)</plot>
+			<plot id="427">Krogan Shotgun (value 0-2)</plot>
+		</ints>
 	</category>
 	<category name="ME2: Captain's Cabin">
 		<ints>
@@ -674,21 +680,11 @@ Paragon / renegade bonus points come from the ME2 character, so edit those value
 
 You can set the End Game State under the Plot section on the Raw tab.
     </notes>
-		<ints multicolumn="true">
+		<ints>
 			<plot id="1">Origin 0-3</plot>
 			<plot id="2">Notoriety 0-3</plot>
 			<plot id="47">Paragon points</plot>
 			<plot id="46">Renegade points</plot>
-			<plot id="43">League Medallions (0-10 or more)</plot>
-			<plot id="48">Light Metals (0-20 or more)</plot>
-			<plot id="50">Heavy Metals (0-20 or more)</plot>
-			<plot id="51">Gases (0-6 or more)</plot>
-			<plot id="52">Rare Earths (0-20 or more)</plot>
-			<plot id="53">Prothean Artifact (0-20 or more)</plot>
-			<plot id="54">Asari Writings(0-10 max 16)</plot>
-			<plot id="55">Turian Emblem (0-13 or more)</plot>
-			<plot id="56">Salarian ID Tags (0-3 or more)</plot>
-			<plot id="39">Citadel: Keepers scanned (0-21)</plot>
 			<plot id="15">Kaidan progress (0-4)</plot>
 			<plot id="16">Liara progress (0-4)</plot>
 			<plot id="17">Ashley progress (0-4)</plot>
@@ -782,5 +778,19 @@ You can set the End Game State under the Plot section on the Raw tab.
 			<plot id="7315">Bring Down the Sky: Killed Balak</plot>
 			<plot id="7317">Bring Down the Sky: Rescued Humans</plot>
 		</bools>
+	</category>
+	<category name="ME1 All Found" legacy="true">
+		<ints>
+			<plot id="43">League Medallions (0-10 max 12)</plot>
+			<plot id="48">Light Metals (0-20 max 34)</plot>
+			<plot id="50">Heavy Metals (0-20 max34)</plot>
+			<plot id="51">Gases (0-6 max 10)</plot>
+			<plot id="52">Rare Earths (0-20 max 36)</plot>
+			<plot id="53">Prothean Artifact (0-7 max 10)</plot>
+			<plot id="54">Asari Writings(0-10 max 16)</plot>
+			<plot id="55">Turian Emblem (0-13 max 17)</plot>
+			<plot id="56">Salarian ID Tags (0-3 max 4)</plot>
+			<plot id="39">Citadel: Keepers scanned (0-21)</plot>
+		</ints>
 	</category>
 </categories>
