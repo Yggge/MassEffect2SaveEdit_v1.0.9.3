@@ -1,4 +1,4 @@
-Mass Effect 2 Save Editor v1.0.9.2
+Mass Effect 2 Save Editor v1.0.9.3
 
 This is a modified version of Gibbed's original ME2 editor for the PC (http://www.gib.me).
 It has several bugs fixed, provides access to many more plot variables, allows partial head morph exports (eg. cosmetics only) and has a savefile compare feature. 
