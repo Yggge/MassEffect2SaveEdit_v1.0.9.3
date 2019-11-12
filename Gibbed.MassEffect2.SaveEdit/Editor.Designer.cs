@@ -1,4 +1,4 @@
-﻿namespace Gibbed.MassEffect2.SaveEdit
+namespace Gibbed.MassEffect2.SaveEdit
 {
     partial class Editor
     {
@@ -1130,7 +1130,7 @@
             this.plotFootnoteLabel.Size = new System.Drawing.Size(439, 36);
             this.plotFootnoteLabel.TabIndex = 4;
             this.plotFootnoteLabel.Text = "* Changing ME1 values should be done on both tabs for correct ME3 import.\r\n  Also" +
-    " make sure you have \"[Other] Played Mass Effect 1\" checked in the ME2 Plot table" +
+    " make sure you have \"[Character] Played ME 1\" (ticked both)checked in the ME2 Plot table" +
     ".";
             // 
             // plotTabControl
